@@ -14,10 +14,10 @@
         body {
           margin: 0;
           font-family: monospace;
-          color: #333;
+          color: black;
         }
         a {
-          color: #000;
+          color: black;
         }
         a,
         a:hover,
@@ -29,7 +29,7 @@
         }
         .content {
           margin: 20px auto;
-          max-width: 500px;
+          max-width: 750px;
         }
         .section {
           margin: 0 0 10px 0;
@@ -42,6 +42,7 @@
         .header__center,
         .header__right {
           flex: 1 1;
+          font-size: 15px;
         }
         .header__center {
           text-align: center;
@@ -51,6 +52,7 @@
         }
         .man__title {
           font-weight: bold;
+          font-size: 15px;
         }
         .man__section {
           margin: 0 0 20px 20px;
@@ -63,6 +65,7 @@
         }
         .flag__dash {
           flex: 0 0 0;
+          padding-right: 1px;
         }
         .flag__dash,
         .flag__header {
@@ -70,6 +73,7 @@
         }
         .flag__header {
           margin-bottom: 5px;
+          font-size: 14px;
         }
         .flag__section {
           margin: 0 0 20px 0;
@@ -92,7 +96,7 @@
 
       <div class="section">
         <div class="man__title">SYNOPSIS</div>
-        <div class="man__section">parker [--developer] [--sysadmin]</div>
+        <div class="man__section">parker [--webDev] [--softwareDev] [--sysAdmin] [--sysAnaylyst] [--secAnaylyst][--networkAdmin]  [--databaseAdmin]  </div>
       </div>
 
       <div class="section">
@@ -106,36 +110,51 @@
 
         <div class="man__section">
           <div class="flag">
-            <span class="flag__dash">--</span>
+            <span class="flag__dash">-</span>
 
             <div class="flag__inner">
               <div class="flag__header">Developer</div>
 
-              <div class="flag__section">Academically successful: completed 2 years of C++ courses including C++ Data Structures and Object Oriented Programming.</div>
+              <div class="flag__section">- <a href="https://github.com/jordanparker32/MyBanana" target="_blank">MyBanana</a></div>
 
-              <div class="flag__section">-<a href="https://github.com/jordanparker32/Kattis-Solutions" target="_blank">Open Kattis</a></div>
-              <div class="flag__section">Open Kattis is a platform used to solve thousands of programming problems. Here are a few of my solutions.</div>
+              <div class="flag__section">
+                For our Software Engineering I course, we were grouped together and asked to come up with a project that could be marketed. We came up with the MyBanana project as we are all fairly active and wanted a better way to track nutrition. Most applications come bundled as an all-in-one solution to fitness and nutrition tracking, but they end up being quite bloated by the end. We wanted to create a simple application that would server severaly purposes.
+              </div>
 
-              <div class="flag__section">-<a href="https://github.com/jordanparker32/Dynamic-Web-Project" target="_blank">Dynamic Web Development</a></div>
-              <div class="flag__section">This was a group project made with a classmate. We created a homepage for the University of Southern Mississippi students to use, by putting our most searched items such as canvas and email, into one place. We created this website using HTML, CSS, jQuery and PHP on the front-end and MySQL as a database.</div>
+              <div class="flag__section">
+                The first reason is to address bloated fitness apps. We wanted something simple but still highly functional. We chose potassium and water as the main nutrient tackers as they are the main compounds needed for adequate muscle functioning. The second reason we made this app is to address the obesity epidemic in Mississippi. We wanted to create a fun and inviting user interface that would attract people that do not have any health or fitness knowledge, and give them an easy step in the direction of better health. Which is another reason why we chose to keep its simple with water and potassium. Switching from sugary beverages to water can elimanate a large portion of sugar in a persons diet leading to a plethora of health benefits. 
+              </div>
+
+              <div class="flag__section">- <a href="https://github.com/jordanparker32/Dynamic-Web-Project" target="_blank">Dynamic Web Development</a></div>
+
+              <div class="flag__section">
+                As a final project for Dynamic Web Development, we grouped together to come up with a simple project that would include both a front-end and back-end. My partner and I decided to create a landing page for Southern Miss students to easily access their most used files. The student would be able to log in and configure web app link buttons to their personal want. For this project the front end was built using HTML, CSS, and jQuery using no frameworks, and using PHP to call to the server that was made using MySQL.  
+              </div>
+
+              <div class="flag__section">- <a href="https://github.com/jordanparker32/Kattis-Solutions" target="_blank">Open Kattis</a></div>
+              
+              <div class="flag__section">Open Kattis is a platform used to solve thousands of programming problems. 
+                We used this platform to teach competitive programming as well as host local programming competions to practice agaisnt each other to then go compete in ICPC. 
+              </div>
+
             </div>
           </div>
 
           <div class="flag">
-            <span class="flag__dash">--</span>
+            <span class="flag__dash">- </span>
 
             <div class="flag__inner">
-              <div class="flag__header">Leader</div>
+              <div class="flag__header"> Leader</div>
 
               <div class="flag__section">I was the president of USM-ACM for the academic year of 2018 to 2019. In this position, I led a large student organization through both academic and personal triumphs. In both the fall 2018 and spring 2019 semesters, I conducted a tutorial session on breaking into Windows using a Kali Linux boot drive.</div>
             </div>
           </div>
 
           <div class="flag">
-            <span class="flag__dash">--</span>
+            <span class="flag__dash">-</span>
 
             <div class="flag__inner">
-              <div class="flag__header">Other</div>
+              <div class="flag__header"> Other</div>
 
               <div class="flag__section">Before I was an IT Development major, I completed a high school Health Science Vo-Tech program that prepared me to test for a CNA licensure. Through this program, I was one of three students chosen to represent the state of Mississippi at the national HOSA competition in Sports Medicine. In my first two years of college, I worked as a Student Athletic Trainer at Mississippi Gulf Coast Community College and Mississppi College. Along with my passion for programming, I stay up to date in theraputic medicine and also compete in Powerlifting.</div>
             </div>
@@ -146,25 +165,29 @@
       <div class="section">
         <div class="man__title">HISTORY</div>
         <div class="man__section">
-          *Academic Tutor
+            - <a href="https://msdefense.net" target="_blank">Web Master</a>
+            <ul>
+              <li>University of Southern Mississippi</li>
+              <li>May 2019 - PRESENT / November 2017 - October 2018</li>
+              <li>Operated as Web Master after site creation</li>
+              <li>Used photo editing software and ASP.NET to market to customers by providing more effective reporting data</li>
+            </ul>
+          </div>
+        <div class="man__section">
+          - Academic Tutor
           <ul>
             <li>University of Southern Mississippi</li>
+            <li>October 2018 - May 2019</li>
             <li>Engaged students in a friendly manner</li>
             <li>Improved the learning outcomes of the freshman introductory and intermediate C++ programming courses</li>
           </ul>
         </div>
+
         <div class="man__section">
-          *<a href="https://msdefense.net" target="_blank">Web Master</a>
-          <ul>
-            <li>University of Southern Mississippi</li>
-            <li>Operated as Web Master after site creation</li>
-            <li>Used photo editing software and ASP.NET to market to customers by providing more effective reporting data</li>
-          </ul>
-        </div>
-        <div class="man__section">
-          *Firearms Associate
+          - Firearms Associate
           <ul>
             <li>Gander Mountain</li>
+            <li>May 2017 - August 2017</li>
             <li>Wrote sales slips and sales contracts</li>
             <li>Exceeded the monthly sales goal</li>
             <li>Filled archery repair orders</li>
@@ -175,7 +198,7 @@
       <div class="section">
         <div class="man__title">EDUCATION</div>
         <div class="man__section">
-          *University of Southern Mississippi
+          - University of Southern Mississippi
           <ul>
             <li>Senior</li>
             <li>3.1 major GPA</li>
