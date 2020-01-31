@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+      <title>Jordan Parker - Security+ Summaries</title>
+
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" type="text/css" href="/styles.css">
+      <meta name="description" content="">
+
+  </head>
+
+  <body>
+        <div class="content">
+                <div class="section section__header">
+                  <span class="header__left"></span>
+                  <span class="header__center">Security+ Chapter One Review</span>
+                  <span class="header__right"></span>
+                </div><br>
+
+                <div class="section">
+                        <div class="man__title">Redundancy</div>
+                            <div class="man__section">
+                                <b>Redundancy</b> refers to either a system that is duplicated or a <b>fail over</b> to other systems in the event of a malfunction. Failover refers to the process of a system being reconstructed onto another system when a failure has been detected. 
+                            </div>   
+                </div>
+
+                <div class="section">
+                        <div class="man__title">RAID Arrays</div>
+                            <div class="man__section">
+                                <b>RAID 0</b> is called <i>disk striping</i>. It uses multiple drives that are then mapped together as if it were a single drive. This is done mostly for performance, not for fault tolerances. If one drive fails in a RAID 0 array, the entire logical drive becomes unstable. 
+                                <br><br>
+                                <b>RAID 1</b> is called <i>disk mirroring</i>. Disk mirroring provides 100 percent redundancy as everything is stored on two disk. If one disk fails, another disk continues to operate. The failed disk can then be replaced, and the raid can be regenerated.
+                                <br><br>
+                                <b>RAID 3</b> is called <i>disk striping with a parity disk</i>. This raid level implements fault tolerence by stripping (like RAID 0) along with a seperate disk that stores parity information. Parity information is a value based on the value of the data stored in each disk location. This system ensures data recovery in the event of a failure.
+                                <br><br>
+                                <b>RAID 5</b> is called <i>disk stripping with parity</i>. This is the most common RAID configuration. It operates similarly to disk stripping, but the parity data is spread across all of the disks in the array instead of being limited to one like in RAID 3. This requires a minimum of three disks and a max of thirty-two.
+
+                            </div>   
+                </div>
+
+                <div class="section">
+                    <div class="man__title">Official Book Summary</div>
+                        <div class="man__section">
+                            Risk assessment is the process of evaluation and cataloging the threats, vulnerabilities, and weaknesses that exist in the systems being used. Risk assessment should ensure that all are covered.<br><br>
+                            Security models begin with an understanding of the business issues that an organization is facing. The following business matters must be evaluated:<br>
+                            <ul>
+                                <li>Policies</li>
+                                <li>Standards</li>
+                                <li>Guidelines</li>
+                            </ul>
+                            A good policy design includes scop statements, overview statements, accountability expectations, and exceptions. Each of these aspects of a well-crafted policy helps in setting expectations for everyone in a company. For a policy to be effective, it needs the unequivocal support of senior management and decision makers in an organization.
+                        </div>
+                </div>
+          
+          <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-152596253-1"></script>
+    <script>
+       window.dataLayer = window.dataLayer || [];
+       function gtag(){dataLayer.push(arguments);}
+       gtag('js', new Date());
+      
+       gtag('config', 'UA-152596253-1');
+    </script>
+  </body>
+</html>
