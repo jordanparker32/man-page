@@ -12,13 +12,20 @@
   </head>
 
   <body>
+    
+
+    <label class="switch"> 
+      <input type="checkbox" onclick="dark()" unchecked>
+      <span class="slider round"></span>
+    </label>
+
     <div class="content">
       <div class="section section__header">
         <span class="header__left">Jordan(1)</span>
         <span class="header__center">Linux User's Manual</span>
         <span class="header__right">Jordan(1)</span>
       </div>
-
+     
       <div class="section">
         <div class="man__title">NAME</div>
         <div class="man__section">Jordan Parker</div>
@@ -57,7 +64,7 @@
       <div class="section">
         <div class="man__title">SUMMARY</div>
         <div class="man__section">As we progress as a society, we continue to connect more and more things to the internet. With each new connection, we potentially open ourselves to the threat of someone hacking into the new device and exploiting it in any way possible.</div>
-        <div class="man__section">As a Senior at the University of Southern Mississippi, I am pursuing a degree in IT Development with a minor in Network Security. With this degree, I plan to go into a career in the Cyber Security field to combat those who would use internet connected devices for harm.</div>
+        
       </div>
 
       <div class="section">
@@ -128,8 +135,8 @@
         <div class="man__section">
           - Junior System Administrator
           <ul>
-            <li>University of Southern Mississippi</li>
-            <li>May 2019 - May 2020 / November 2017 - October 2018</li>
+            <li><i>Liberty Rent Gurantee</i></li>
+            <li>July 2020 - Current</li>
             <li>Operated as Web Master after site creation for the Mississippi Defense Initiative</li>
             <li>Used photo editing software and ASP.NET to market to customers by providing more effective reporting data</li>
             <li>Redesigned and developed a user-friendly front end, lowering initial load time over 110 seconds</li>
@@ -140,7 +147,7 @@
         <div class="man__section">
             - Web Master
             <ul>
-              <li>University of Southern Mississippi</li>
+              <li><i>University of Southern Mississippi</i></li>
               <li>May 2019 - May 2020 / November 2017 - October 2018</li>
               <li>Operated as Web Master after site creation for the Mississippi Defense Initiative</li>
               <li>Used photo editing software and ASP.NET to market to customers by providing more effective reporting data</li>
@@ -152,7 +159,7 @@
         <div class="man__section">
           - Academic Tutor
           <ul>
-            <li>University of Southern Mississippi</li>
+            <li><i>University of Southern Mississippi</i></li>
             <li>October 2018 - May 2019</li>
             <li>Coordinated lesson plans, course materials, and discussion questions prior to each session</li>
             <li>Evaluated and documented student progress and academic challenges</li>
@@ -165,7 +172,7 @@
         <div class="man__section">
           - Firearms Associate
           <ul>
-            <li>Gander Mountain</li>
+            <li><i>Gander Mountain</i></li>
             <li>May 2017 - August 2017</li>
             <li>Enhanced customer satisfaction with fast, knowledgeable firearm and archery service</li>
             <li>Demonstrated initiative by staying busy during slow work periods, frequently handling cleaning and restocking</li>
@@ -209,5 +216,12 @@
       
        gtag('config', 'UA-152596253-1');
     </script>
+
+    <script>
+      function dark() {
+        var element = document.body;
+        element.classList.toggle("dark-mode");
+      }
+      </script>
   </body>
 </html>
